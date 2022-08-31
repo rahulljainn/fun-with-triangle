@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+        background-color:beige
+    
+    }
+
+
+nav{
+    background-color: rgb(72, 18, 18);
+    font-size: 2rem;
+    width: auto;
+    height: 10vh;
+    font-weight: bold;
+    color: aliceblue;
+    border-bottom-right-radius: 1rem;
+    text-align: right;
+    padding-top: 2rem;
+    
+    
+}
+h1{
+    font-size: 4rem;
+
+}
