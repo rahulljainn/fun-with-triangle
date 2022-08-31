@@ -9,9 +9,9 @@
  function istriangle(){
     const sumofangels=calculatesumofangle(Number(inputs[0].value),Number(inputs[1].value),Number(inputs[2].value));
     if(sumofangels===180){
-        outputbox.innerText="Yes,you are right It's a Triangle"
+        outputbox.innerText="Yes, you are right. It's a Triangle"
     }else{
-        outputbox.innerText="No you are wrong check it again"
+        outputbox.innerText="No, you are wrong. Check it again"
     }
  };
  checktriangle.addEventListener("click",istriangle)

@@ -7,18 +7,76 @@ body{
 
 nav{
     background-color: rgb(72, 18, 18);
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: auto;
-    height: 10vh;
+    height: 20vh;
     font-weight: bold;
     color: aliceblue;
     border-bottom-right-radius: 1rem;
-    text-align: right;
+    text-align: auto;
     padding-top: 2rem;
+
     
     
 }
 h1{
     font-size: 4rem;
 
+}
+.link{
+    text-decoration: none;
+    padding: 0rem 0.5rem;
+    color:white;
+    font-size: 1.5rem;
+}
+#output{
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+    padding: 2rem;
+}
+#checkbtn{
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 00.5rem;
+    background-color: white;
+}
+.quiz-ques{
+    font-weight: bold;
+    
+}
+#outputBox{
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+    padding: 2rem;
+}
+#submitAnswer{
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 00.5rem;
+    background-color: white;
+}
+#calculateHype{
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 00.5rem;
+    background-color: white;
+}
+#outputtext{
+    font-size: 2rem;
+    font-weight: bold;
+    display: block;
+    padding: 2rem;
+}
+#checkarea{
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 00.5rem;
+    background-color: white;
+}
+.heading{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 2rem;
 }
