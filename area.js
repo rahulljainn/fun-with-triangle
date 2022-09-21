@@ -1,4 +1,5 @@
-const input=document.querySelectorAll(".enterdata");
+var input=document.querySelector("#enterdata1");
+var insert=document.querySelector("#enterdata2")
 const output=document.querySelector("#outputtext");
 const sumbmitbtn=document.querySelector("#checkarea");
 
@@ -8,10 +9,16 @@ function calculateproductofinputs(Base,Height){
 }
 
 function calculateareaoftriangle(){
-    const prodofinputs=calculateproductofinputs(Number(input[0].value),Number(input[1].value));
-    const areaoftriangle=(prodofinputs/2);
-    output.innerText="The Area of Tringle is "+ areaoftriangle
-
+    if(input.value>0 && insert.value>0){
+        const prodofinputs=calculateproductofinputs(Number(input.value),Number(insert.value));
+        const areaoftriangle=(prodofinputs/2);
+        output.innerText="The Area of Tringle is "+ Math.round(areaoftriangle);}
+        else if (input.value<0 || insert.value<0){
+            alert("Negative number are not allowed")
+        }else{
+            alert("Please Enter valid information")
+        }
+    
 }
 
 sumbmitbtn.addEventListener("click",calculateareaoftriangle)
