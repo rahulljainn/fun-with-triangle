@@ -16,9 +16,9 @@
         }else{
             outputbox.innerText="No, you are wrong. Check it again"
         }} else if (input1.value<0 || input2.value<0 || input3.value<0){
-            alert("Negative number are not allowed")
+             outputbox.innerText=("Negative number are not allowed")
         }else{
-            alert("Please Enter valid information")
+             outputbox.innerText=("Please Enter valid information")
         }
 
   

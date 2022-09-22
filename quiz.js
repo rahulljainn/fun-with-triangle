@@ -19,9 +19,9 @@ function calculatescore(){
         
         
         if(count==4)
-        {output.innerText="Your Score is "+ score;}
+        {output.innerText="Your Score is "+ score + "out of 4."}
 
-        else{ alert("Please fill all questions")}
+        else{ output.innerText=("Please fill all questions")}
            
 
         }

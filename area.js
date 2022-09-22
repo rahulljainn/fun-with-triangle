@@ -14,9 +14,9 @@ function calculateareaoftriangle(){
         const areaoftriangle=(prodofinputs/2);
         output.innerText="The Area of Tringle is "+ Math.round(areaoftriangle);}
         else if (input.value<0 || insert.value<0){
-            alert("Negative number are not allowed")
+            output.innerText=("Negative number are not allowed")
         }else{
-            alert("Please Enter valid information")
+            output.innerText=("Please Enter valid information")
         }
     
 }

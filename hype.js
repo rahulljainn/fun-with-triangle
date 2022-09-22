@@ -14,9 +14,9 @@ function calculatehypotenuse(){
         const lengthofhypotenuse=Math.sqrt(sumofsquares);
         outputBox.innerText="The length of Hypotenuse is "+ Math.round(lengthofhypotenuse);}
         else if (side1.value<0 || side2.value<0){
-            alert("Negative number are not allowed")
+            outputBox.innerText=("Negative number are not allowed")
         }else{
-            alert("Please Enter valid information")
+            outputBox.innerText=("Please Enter valid information")
         }
     
 }
